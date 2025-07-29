@@ -4,19 +4,18 @@ This repo contains my personal notes and lab work while preparing for the [PNPT 
 
 The goal is to document what I learn along the way from basic networking to Active Directory attacks and to organize everything in one place for review and future reference.
 
-## Structure
+## Structure (So Far)
 
 - `Network Refresher/` – core networking concepts (IP, MAC, OSI, TCP/UDP, etc.)
 - `Information Gathering/` – passive recon, email discovery
 - `Ethical Hacker Methodology/` – basic overview of the five hacking stages
 - `.obsidian/` – Obsidian vault config (graph, plugins, workspace layout)
 
-## Tools & Topics
+## Tools & Topics (So Far)
 
 - Subnetting, ports, protocols
 - OSINT basics
 - Internal linking via Obsidian
-- Git for versioning and documentation
 
 ## Notes
 
