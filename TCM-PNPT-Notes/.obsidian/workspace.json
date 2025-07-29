@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ddd856719c665735",
+        "id": "6e5e35a1ffb43d84",
         "type": "tabs",
         "children": [
           {
-            "id": "e213f8a54540383e",
+            "id": "c53f1beafba7aaa5",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e213f8a54540383e",
+  "active": "669d38130e40afa4",
   "lastOpenFiles": [
     "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/Passive Reconnaissance Overview.md",
     "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/Discovering Email Addresses.md",
