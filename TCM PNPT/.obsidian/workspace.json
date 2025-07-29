@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "04459e0084bd6642",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddd856719c665735",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e213f8a54540383e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc452d434b4678e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f738bb1e36cad3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "669d38130e40afa4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "79d142acb0b24779",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1abe057259aaf02a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ac5191f4cabcb3a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "05c2c654f5eb5029",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b9f83b433d9438d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "5772062688bee548",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "dc02b68eac40ae19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c1ced220f3e4daba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e213f8a54540383e",
+  "lastOpenFiles": [
+    "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/Passive Reconnaissance Overview.md",
+    "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/Discovering Email Addresses.md",
+    "Practical Ethical Hacking - The Complete Course/Network Refresher/Subnetting.md",
+    "Practical Ethical Hacking - The Complete Course/Network Refresher/TCP vs UPD.md",
+    "Practical Ethical Hacking - The Complete Course/The Ethical Hacker Methodology/The Five Stages of Ethical Hacking.md",
+    "Images/Pasted image 20250729231326.png",
+    "Pasted image 20250729231318.png",
+    "Pasted image 20250729231304.png",
+    "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)",
+    "Images/Pasted image 20250729230316.png",
+    "Practical Ethical Hacking - The Complete Course/Network Refresher/OSI Model.md",
+    "Practical Ethical Hacking - The Complete Course/The Ethical Hacker Methodology",
+    "Practical Ethical Hacking - The Complete Course/Network Refresher/Ports.md",
+    "Files/5EF24100",
+    "Files/~$Subnet-Guide.xlsx",
+    "Practical Ethical Hacking - The Complete Course/Network Refresher/IP and MAC Adresses.md",
+    "Practical Ethical Hacking - The Complete Course/Network Refresher/Network Refresher Index.md",
+    "Files/Subnet-Guide.xlsx",
+    "Files",
+    "Neuer Ordner",
+    "F7C89000",
+    "Images/Pasted image 20250729191637.png",
+    "~$Subnet-Guide.xlsx",
+    "6D117000",
+    "Untitled.canvas",
+    "Images/Pasted image 20250729174918.png",
+    "Images/Pasted image 20250729180450.png",
+    "Test.md",
+    "hi.md",
+    "Pasted image 20250729174136.png",
+    "Pasted image 20250729174114.png",
+    "Pasted image 20250729174117.png",
+    "Welcome.md"
+  ]
+}
