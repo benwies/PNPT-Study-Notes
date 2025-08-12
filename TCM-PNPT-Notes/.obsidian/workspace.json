@@ -13,34 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practical Ethical Hacking - The Complete Course/The Ethical Hacker Methodology/The Five Stages of Ethical Hacking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Five Stages of Ethical Hacking"
-            }
-          },
-          {
-            "id": "236afdf6c7869c11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/goole fu.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "goole fu"
-            }
-          },
-          {
-            "id": "72f140a8246a60fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Practical Ethical Hacking - The Complete Course/Scanning & Enumeration/Kioptrix.md",
                 "mode": "source",
                 "source": false
@@ -49,8 +21,7 @@
               "title": "Kioptrix"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,13 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "669d38130e40afa4",
+  "active": "5d09b4ea1fd93a52",
   "lastOpenFiles": [
-    "Images/Pasted image 20250808223412.png",
-    "Images/Pasted image 20250808221326.png",
-    "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/goole fu.md",
     "Practical Ethical Hacking - The Complete Course/The Ethical Hacker Methodology/The Five Stages of Ethical Hacking.md",
+    "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/goole fu.md",
+    "Images/Pasted image 20250808221326.png",
+    "Images/Pasted image 20250808223412.png",
+    "Images/Pasted image 20250808223412 1.png",
     "Practical Ethical Hacking - The Complete Course/Scanning & Enumeration/Kioptrix.md",
+    "Pasted image 20250812150225.png",
+    "Pasted image 20250812150050.png",
+    "Pasted image 20250812145702.png",
     "Images/Pasted image 20250808214154.png",
     "Practical Ethical Hacking - The Complete Course/Scanning & Enumeration",
     "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)/Discovering Email Addresses.md",
@@ -217,7 +192,6 @@
     "Pasted image 20250729231318.png",
     "Pasted image 20250729231304.png",
     "Practical Ethical Hacking - The Complete Course/Information Gathering (Reconnaissance)",
-    "Images/Pasted image 20250729230316.png",
     "Practical Ethical Hacking - The Complete Course/Network Refresher/OSI Model.md",
     "Practical Ethical Hacking - The Complete Course/The Ethical Hacker Methodology",
     "Practical Ethical Hacking - The Complete Course/Network Refresher/Ports.md",
@@ -229,14 +203,10 @@
     "Files",
     "Neuer Ordner",
     "F7C89000",
-    "Images/Pasted image 20250729191637.png",
     "~$Subnet-Guide.xlsx",
     "Untitled.canvas",
-    "Images/Pasted image 20250729174918.png",
-    "Images/Pasted image 20250729180450.png",
     "Test.md",
     "hi.md",
-    "Pasted image 20250729174136.png",
     "Welcome.md"
   ]
 }

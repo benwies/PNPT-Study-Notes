@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="5" master_id="0" name="80/443" prog_lang="plain-text" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="60" is_bold="0" foreground="" ts_creation="1755006559" ts_lastsave="1755006945">
+    <rich_text>Potential vuln to OpenFuck (https://www.exploit-db.com/exploits/764) (https://github.com/heltonWernik/OpenLuck)
+
+
+</rich_text>
+  </node>
+</cherrytree>
