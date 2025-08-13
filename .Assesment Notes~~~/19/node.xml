@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="19" master_id="0" name="443" prog_lang="plain-text" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="60" is_bold="0" foreground="" ts_creation="1755118597" ts_lastsave="1755119150">
+    <rich_text>Interesting items:
+
+SMB
+Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds
+
+Could connect with smbclient to ICP anonymously, but not with ADMIN or C.
+Potential vuln to EternalBlue' SMB Remote Code Execution (https://www.exploit-db.com/exploits/42315)</rich_text>
+  </node>
+</cherrytree>

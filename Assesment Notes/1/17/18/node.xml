@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="18" master_id="0" name="Nmap" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="60" is_bold="0" foreground="" ts_creation="1755118173" ts_lastsave="1755118597">
+    <rich_text>Starting Nmap 7.95 ( </rich_text>
+    <rich_text link="webs https://nmap.org">https://nmap.org</rich_text>
+    <rich_text> ) at 2025-08-13 16:47 EDT
+Nmap scan report for 192.168.57.6
+Host is up (0.00097s latency).
+Not shown: 65527 closed tcp ports (reset)
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 08:00:27:CB:6E:6E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Microsoft Windows 2008|7|Vista|8.1
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_vista cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows Vista SP2 or Windows 7 or Windows Server 2008 R2 or Windows 8.1
+Network Distance: 1 hop
+Service Info: Host: WIN-845Q99OO4PP; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: WIN-845Q99OO4PP
+|   NetBIOS computer name: WIN-845Q99OO4PP\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2025-08-13T16:48:19-04:00
+| smb2-time: 
+|   date: 2025-08-13T20:48:19
+|_  start_date: 2025-08-13T20:41:03
+| smb2-security-mode: 
+|   2:1:0: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 1h20m00s, deviation: 2h18m33s, median: 0s
+|_nbstat: NetBIOS name: WIN-845Q99OO4PP, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 08:00:27:cb:6e:6e (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.97 ms 192.168.57.6
+
+OS and Service detection performed. Please report any incorrect results at </rich_text>
+    <rich_text link="webs https://nmap.org/submit/">https://nmap.org/submit/</rich_text>
+    <rich_text> .
+Nmap done: 1 IP address (1 host up) scanned in 83.81 seconds
+                                                               </rich_text>
+  </node>
+</cherrytree>

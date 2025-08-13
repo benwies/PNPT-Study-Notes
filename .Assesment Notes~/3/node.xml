@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node unique_id="3" master_id="0" name="Nmap" prog_lang="plain-text" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="60" is_bold="0" foreground="" ts_creation="1755006421" ts_lastsave="1755006504">
+  <node unique_id="3" master_id="0" name="Nmap" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="60" is_bold="0" foreground="" ts_creation="1755006421" ts_lastsave="1755118208">
     <rich_text>Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-12 08:46 EDT
 Nmap scan report for 192.168.57.4
 Host is up (0.0018s latency).
