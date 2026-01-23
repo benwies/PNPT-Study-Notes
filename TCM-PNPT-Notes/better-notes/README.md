@@ -1,81 +1,83 @@
-# BETTER NOTES - TCM PNPT PENTESTING HANDBOOK
+# TCM PNPT PENTESTING HANDBOOK
 
 Quick reference guide for pentesting engagements. Commands marked with `$` are for command line execution.
 
 ## Table of Contents
 
-### 📚 0-Foundation
-- [**00-QUICK-START**](0-Foundation/00-QUICK-START.md) - 5 stages, workflow checklist, common ports
-- [**01-NETWORKING**](0-Foundation/01-NETWORKING.md) - OSI model, TCP/UDP, IPv4/IPv6, subnetting
-- [**20-TOOLS-RESOURCES**](0-Foundation/20-TOOLS-RESOURCES.md) - Tools by phase, useful links, common ports
+### 0-Foundation
+- [**01-QUICK-START**](0-Foundation/01-QUICK-START.md) - 5 stages, workflow checklist, common ports
+- [**02-NETWORKING**](0-Foundation/02-NETWORKING.md) - OSI model, TCP/UDP, IPv4/IPv6, subnetting
+- [**03-TOOLS-RESOURCES**](0-Foundation/03-TOOLS-RESOURCES.md) - Tools by phase, useful links, common ports
 
-### 🔍 1-Reconnaissance
-- [**02-PASSIVE-RECON**](1-Reconnaissance/02-PASSIVE-RECON.md) - OSINT tools, company info, no active scanning
-- [**03-EMAIL-CREDENTIALS**](1-Reconnaissance/03-EMAIL-CREDENTIALS.md) - Email discovery, breach databases, credential harvesting
+### 1-Reconnaissance
+- [**01-PASSIVE-RECON**](1-Reconnaissance/01-PASSIVE-RECON.md) - OSINT tools, company info, no active scanning
+- [**02-EMAIL-CREDENTIALS**](1-Reconnaissance/02-EMAIL-CREDENTIALS.md) - Email discovery, breach databases, credential harvesting
 
-### 📡 2-Scanning
-- [**05-NMAP**](2-Scanning/05-NMAP.md) - Port scanning, service enumeration
-- [**04-SUBDOMAIN-TECH**](2-Scanning/04-SUBDOMAIN-TECH.md) - Subdomain discovery, tech stack identification
-- [**06-VULN-SCANNING**](2-Scanning/06-VULN-SCANNING.md) - Nessus, SearchSploit, CVE research
-- [**07-HTTP-ENUMERATION**](2-Scanning/07-HTTP-ENUMERATION.md) - Web servers, directories, Nikto, Burp Suite
-- [**08-SMB-ENUMERATION**](2-Scanning/08-SMB-ENUMERATION.md) - Windows shares, SMB version checking
-- [**09-SSH-ENUMERATION**](2-Scanning/09-SSH-ENUMERATION.md) - SSH versions, weak algorithms, brute force
-- [**10-DNS-OTHER-SERVICES**](2-Scanning/10-DNS-OTHER-SERVICES.md) - DNS, NFS, Telnet, hash identification
+### 2-Scanning
+- [**01-SUBDOMAIN-TECH**](2-Scanning/01-SUBDOMAIN-TECH.md) - Subdomain discovery, tech stack identification
+- [**02-NMAP**](2-Scanning/02-NMAP.md) - Port scanning, service enumeration
+- [**03-VULN-SCANNING**](2-Scanning/03-VULN-SCANNING.md) - Nessus, SearchSploit, CVE research
+- [**04-HTTP-ENUMERATION**](2-Scanning/04-HTTP-ENUMERATION.md) - Web servers, directories, Nikto, Burp Suite
+- [**05-SMB-ENUMERATION**](2-Scanning/05-SMB-ENUMERATION.md) - Windows shares, SMB version checking
+- [**06-SSH-ENUMERATION**](2-Scanning/06-SSH-ENUMERATION.md) - SSH versions, weak algorithms, brute force
+- [**07-DNS-OTHER-SERVICES**](2-Scanning/07-DNS-OTHER-SERVICES.md) - DNS, NFS, Telnet, hash identification
 
-### ⚔️ 3-Exploitation
-- [**11-BRUTE-FORCE**](3-Exploitation/11-BRUTE-FORCE.md) - Hydra, credential stuffing, password spraying
-- [**12-METASPLOIT**](3-Exploitation/12-METASPLOIT.md) - MSFConsole basics, exploit workflow
-- [**13-REVERSE-SHELLS**](3-Exploitation/13-REVERSE-SHELLS.md) - Shell types, MSFVenom, one-liners
-- [**15-WEB-EXPLOITATION**](3-Exploitation/15-WEB-EXPLOITATION.md) - PHP shells, SQLi, LFI/RFI, file uploads
-- [**16-ACTIVE-DIRECTORY**](3-Exploitation/16-ACTIVE-DIRECTORY.md) - LLMNR poisoning, Kerberoasting, PTH
+### 3-Exploitation
+- [**01-BRUTE-FORCE**](3-Exploitation/01-BRUTE-FORCE.md) - Hydra, credential stuffing, password spraying
+- [**02-METASPLOIT**](3-Exploitation/02-METASPLOIT.md) - MSFConsole basics, exploit workflow
+- [**03-REVERSE-SHELLS**](3-Exploitation/03-REVERSE-SHELLS.md) - Shell types, MSFVenom, one-liners
+- [**04-WEB-EXPLOITATION**](3-Exploitation/04-WEB-EXPLOITATION.md) - PHP shells, SQLi, LFI/RFI, file uploads
+- [**05-ACTIVE-DIRECTORY**](3-Exploitation/05-ACTIVE-DIRECTORY.md) - LLMNR poisoning, Kerberoasting, PTH
 
-### 🔐 4-Privesc
-- [**14-PRIVESC**](4-Privesc/14-PRIVESC.md) - Linux/Windows privesc, SUID, sudo, UAC bypass
+### 4-Privesc
+- [**01-PRIVESC**](4-Privesc/01-PRIVESC.md) - Linux/Windows privesc, SUID, sudo, UAC bypass
 
-### 📤 5-PostExploitation
-- [**17-POST-EXPLOITATION**](5-PostExploitation/17-POST-EXPLOITATION.md) - File transfer, data exfil, log cleanup
-- [**18-FILE-CRACKING**](5-PostExploitation/18-FILE-CRACKING.md) - ZIP cracking, hash identification, John/Hashcat
+### 5-PostExploitation
+- [**01-POST-EXPLOITATION**](5-PostExploitation/01-POST-EXPLOITATION.md) - File transfer, data exfil, log cleanup
+- [**02-FILE-CRACKING**](5-PostExploitation/02-FILE-CRACKING.md) - ZIP cracking, hash identification, John/Hashcat
 
-### 📖 Reference
-- [**19-BURP-SUITE**](Reference/19-BURP-SUITE.md) - Setup, intercepting, testing, scanning
-- [**21-CHEATSHEET**](Reference/21-CHEATSHEET.md) - All commands in one place
-- [**22-REPORTING-LEGAL**](Reference/22-REPORTING-LEGAL.md) - Documentation, scope, legal considerations
+### Reference
+- [**01-BURP-SUITE**](Reference/01-BURP-SUITE.md) - Setup, intercepting, testing, scanning
+- [**02-CHEATSHEET**](Reference/02-CHEATSHEET.md) - All commands in one place
+- [**03-REPORTING-LEGAL**](Reference/03-REPORTING-LEGAL.md) - Documentation, scope, legal considerations
+
+## Directory Structure
 
 ## Directory Structure
 
 ```
-better-notes/
+notes/
 ├── README.md
 ├── 0-Foundation/
-│   ├── 00-QUICK-START.md
-│   ├── 01-NETWORKING.md
-│   └── 20-TOOLS-RESOURCES.md
+│   ├── 01-QUICK-START.md
+│   ├── 02-NETWORKING.md
+│   └── 03-TOOLS-RESOURCES.md
 ├── 1-Reconnaissance/
-│   ├── 02-PASSIVE-RECON.md
-│   └── 03-EMAIL-CREDENTIALS.md
+│   ├── 01-PASSIVE-RECON.md
+│   └── 02-EMAIL-CREDENTIALS.md
 ├── 2-Scanning/
-│   ├── 04-SUBDOMAIN-TECH.md
-│   ├── 05-NMAP.md
-│   ├── 06-VULN-SCANNING.md
-│   ├── 07-HTTP-ENUMERATION.md
-│   ├── 08-SMB-ENUMERATION.md
-│   ├── 09-SSH-ENUMERATION.md
-│   └── 10-DNS-OTHER-SERVICES.md
+│   ├── 01-SUBDOMAIN-TECH.md
+│   ├── 02-NMAP.md
+│   ├── 03-VULN-SCANNING.md
+│   ├── 04-HTTP-ENUMERATION.md
+│   ├── 05-SMB-ENUMERATION.md
+│   ├── 06-SSH-ENUMERATION.md
+│   └── 07-DNS-OTHER-SERVICES.md
 ├── 3-Exploitation/
-│   ├── 11-BRUTE-FORCE.md
-│   ├── 12-METASPLOIT.md
-│   ├── 13-REVERSE-SHELLS.md
-│   ├── 15-WEB-EXPLOITATION.md
-│   └── 16-ACTIVE-DIRECTORY.md
+│   ├── 01-BRUTE-FORCE.md
+│   ├── 02-METASPLOIT.md
+│   ├── 03-REVERSE-SHELLS.md
+│   ├── 04-WEB-EXPLOITATION.md
+│   └── 05-ACTIVE-DIRECTORY.md
 ├── 4-Privesc/
-│   └── 14-PRIVESC.md
+│   └── 01-PRIVESC.md
 ├── 5-PostExploitation/
-│   ├── 17-POST-EXPLOITATION.md
-│   └── 18-FILE-CRACKING.md
+│   ├── 01-POST-EXPLOITATION.md
+│   └── 02-FILE-CRACKING.md
 └── Reference/
-    ├── 19-BURP-SUITE.md
-    ├── 21-CHEATSHEET.md
-    └── 22-REPORTING-LEGAL.md
+    ├── 01-BURP-SUITE.md
+    ├── 02-CHEATSHEET.md
+    └── 03-REPORTING-LEGAL.md
 ```
 
 ---

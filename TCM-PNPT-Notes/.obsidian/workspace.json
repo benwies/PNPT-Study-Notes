@@ -8,31 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be5f3f6472e6c569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Scanning & Enumeration/Kioptrix LEVEL 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kioptrix LEVEL 1"
-            }
-          },
-          {
             "id": "98eb1349a5eb8794",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "oldNotes/Cheatsheet.md",
-                "mode": "source",
-                "source": false
+                "file": "better-notes/img/Pasted image 20250812145702.png"
               },
-              "icon": "lucide-file",
-              "title": "Cheatsheet"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250812145702"
             }
           }
         ]
@@ -183,31 +167,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be5f3f6472e6c569",
+  "active": "669d38130e40afa4",
   "lastOpenFiles": [
-    "better-notes/Reference/22-REPORTING-LEGAL.md",
-    "better-notes/Reference/21-CHEATSHEET.md",
-    "better-notes/Reference/19-BURP-SUITE.md",
-    "better-notes/5-PostExploitation/18-FILE-CRACKING.md",
-    "better-notes/5-PostExploitation/17-POST-EXPLOITATION.md",
-    "better-notes/4-Privesc/14-PRIVESC.md",
-    "better-notes/3-Exploitation/16-ACTIVE-DIRECTORY.md",
-    "better-notes/3-Exploitation/15-WEB-EXPLOITATION.md",
-    "better-notes/3-Exploitation/13-REVERSE-SHELLS.md",
-    "better-notes/3-Exploitation/12-METASPLOIT.md",
-    "better-notes/3-Exploitation/11-BRUTE-FORCE.md",
-    "better-notes/2-Scanning/10-DNS-OTHER-SERVICES.md",
-    "better-notes/2-Scanning/09-SSH-ENUMERATION.md",
-    "better-notes/2-Scanning/08-SMB-ENUMERATION.md",
-    "better-notes/2-Scanning/07-HTTP-ENUMERATION.md",
-    "better-notes/2-Scanning/06-VULN-SCANNING.md",
-    "better-notes/2-Scanning/04-SUBDOMAIN-TECH.md",
-    "better-notes/2-Scanning/05-NMAP.md",
-    "better-notes/1-Reconnaissance/03-EMAIL-CREDENTIALS.md",
-    "better-notes/1-Reconnaissance/02-PASSIVE-RECON.md",
-    "better-notes/0-Foundation/20-TOOLS-RESOURCES.md",
-    "better-notes/0-Foundation/01-NETWORKING.md",
-    "better-notes/0-Foundation/00-QUICK-START.md",
+    "better-notes/img/Pasted image 20250729174918.png",
+    "oldNotes/Cheatsheet.md",
+    "better-notes/COVERAGE-AUDIT.txt",
+    "better-notes/Reference/04-PRACTICE-LABS.md",
+    "better-notes/Reference/03-REPORTING-LEGAL.md",
+    "better-notes/Reference/02-CHEATSHEET.md",
+    "better-notes/Reference/01-BURP-SUITE.md",
+    "better-notes/5-PostExploitation/02-FILE-CRACKING.md",
+    "better-notes/5-PostExploitation/01-POST-EXPLOITATION.md",
+    "better-notes/4-Privesc/01-PRIVESC.md",
+    "better-notes/3-Exploitation/05-ACTIVE-DIRECTORY.md",
+    "better-notes/3-Exploitation/04-WEB-EXPLOITATION.md",
+    "better-notes/3-Exploitation/03-REVERSE-SHELLS.md",
+    "better-notes/3-Exploitation/02-METASPLOIT.md",
+    "better-notes/3-Exploitation/01-BRUTE-FORCE.md",
+    "better-notes/2-Scanning/07-DNS-OTHER-SERVICES.md",
+    "better-notes/2-Scanning/06-SSH-ENUMERATION.md",
+    "better-notes/2-Scanning/05-SMB-ENUMERATION.md",
+    "better-notes/2-Scanning/04-HTTP-ENUMERATION.md",
+    "better-notes/2-Scanning/03-VULN-SCANNING.md",
+    "better-notes/2-Scanning/02-NMAP.md",
+    "better-notes/2-Scanning/01-SUBDOMAIN-TECH.md",
+    "better-notes/1-Reconnaissance/02-EMAIL-CREDENTIALS.md",
+    "better-notes/1-Reconnaissance/01-PASSIVE-RECON.md",
+    "better-notes/0-Foundation/03-TOOLS-RESOURCES.md",
+    "better-notes/0-Foundation/02-NETWORKING.md",
+    "better-notes/0-Foundation/01-QUICK-START.md",
     "better-notes/Reference",
     "better-notes/5-PostExploitation",
     "better-notes/4-Privesc",
@@ -215,22 +203,18 @@
     "better-notes/2-Scanning",
     "better-notes/1-Reconnaissance",
     "better-notes/0-Foundation",
-    "better-notes/README.md",
-    "better-notes/22-REPORTING-LEGAL.md",
-    "better-notes/21-CHEATSHEET.md",
     "better-notes",
-    "4. Attacking Active Directory Initial Attack Vectors",
-    "img/Pasted image 20260122195914.png",
-    "img/Pasted image 20260122195831.png",
-    "img/Pasted image 20260122194913.png",
-    "img/Pasted image 20260122193412.png",
-    "img/Pasted image 20260122193333.png",
-    "img/Pasted image 20260122193258.png",
-    "3. Exploitation",
-    "img/Pasted image 20260122191229.png",
-    "img/Pasted image 20260122191124.png",
-    "img/Pasted image 20260122191012.png",
-    "img/Pasted image 20260122184339.png",
+    "oldNotes/4. Attacking Active Directory Initial Attack Vectors",
+    "better-notes/img/Pasted image 20260122195914.png",
+    "better-notes/img/Pasted image 20260122195831.png",
+    "better-notes/img/Pasted image 20260122194913.png",
+    "better-notes/img/Pasted image 20260122193412.png",
+    "better-notes/img/Pasted image 20260122193333.png",
+    "better-notes/img/Pasted image 20260122193258.png",
+    "better-notes/img/Pasted image 20260122191229.png",
+    "better-notes/img/Pasted image 20260122191124.png",
+    "better-notes/img/Pasted image 20260122191012.png",
+    "better-notes/img/Pasted image 20260122184339.png",
     "Untitled.canvas"
   ]
 }

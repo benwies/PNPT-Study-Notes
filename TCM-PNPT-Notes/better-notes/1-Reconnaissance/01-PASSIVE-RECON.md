@@ -31,3 +31,6 @@ $ dig example.com
 - No illegal scanning yet - passive only
 - Google dorking, LinkedIn, GitHub profiles
 
+## Google Dorking Resources
+- Advanced search operators: https://ahrefs.com/blog/google-advanced-search-operators
+

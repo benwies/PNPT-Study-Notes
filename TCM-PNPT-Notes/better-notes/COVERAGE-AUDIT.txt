@@ -1,0 +1,103 @@
+# COVERAGE AUDIT - Better-Notes vs Original Notes
+
+## Status: VOLLSTÄNDIGE ÜBERPRÜFUNG ABGESCHLOSSEN
+
+### ERGEBNIS
+✓ ALLE Inhalte aus deinen alten Notes sind in better-notes vorhanden
+✓ Keine erfundenen Inhalte - alles basiert auf deinen Originalnotizen
+✓ Alle CLI-Commands aus deinen Notes sind vorhanden
+
+### 0. Network Refresher
+- [x] IP and MAC Addresses → 02-NETWORKING.md
+- [x] OSI Model → 02-NETWORKING.md
+- [x] Ports → 0-Foundation/03-TOOLS-RESOURCES.md + Reference/02-CHEATSHEET.md
+- [x] Subnetting → 02-NETWORKING.md
+- [x] TCP vs UDP → 02-NETWORKING.md
+
+### 1. Information Gathering (Reconnaissance)
+- [x] Passive Reconnaissance → 1-Reconnaissance/01-PASSIVE-RECON.md
+- [x] Discovering Email Addresses → 1-Reconnaissance/02-EMAIL-CREDENTIALS.md
+- [x] Gathering Breached Credentials → 1-Reconnaissance/02-EMAIL-CREDENTIALS.md
+- [x] Hunting Subdomain → 2-Scanning/01-SUBDOMAIN-TECH.md
+- [x] Identifying Website Technologies → 2-Scanning/01-SUBDOMAIN-TECH.md
+- [x] Burp Suite → Reference/01-BURP-SUITE.md
+- [x] Google Fu → 1-Reconnaissance/01-PASSIVE-RECON.md + Link zu ahrefs
+
+### 2. Scanning & Enumeration
+- [x] Nmap → 2-Scanning/02-NMAP.md
+- [x] Nessus → 2-Scanning/03-VULN-SCANNING.md
+- [x] HTTP/HTTPS → 2-Scanning/04-HTTP-ENUMERATION.md
+- [x] SMB → 2-Scanning/05-SMB-ENUMERATION.md
+- [x] SSH → 2-Scanning/06-SSH-ENUMERATION.md
+- [x] DNS, NFS, Telnet → 2-Scanning/07-DNS-OTHER-SERVICES.md
+- [x] Hash Identification → 5-PostExploitation/02-FILE-CRACKING.md
+- [x] Vulnerability Research → 2-Scanning/03-VULN-SCANNING.md
+- [x] Kioptrix Reference → Im README und Cheatsheet erwähnt
+
+### 3. Exploitation
+- [x] Metasploit → 3-Exploitation/02-METASPLOIT.md
+- [x] Brute Force / Password Spraying → 3-Exploitation/01-BRUTE-FORCE.md
+- [x] PHP Exploitation → 3-Exploitation/04-WEB-EXPLOITATION.md
+- [x] Reverse Shells vs Bind Shells → 3-Exploitation/03-REVERSE-SHELLS.md
+- [x] Shellcode → 3-Exploitation/03-REVERSE-SHELLS.md
+- [x] Staged vs Non-Staged → 3-Exploitation/03-REVERSE-SHELLS.md
+- [x] ZIP Cracking → 5-PostExploitation/02-FILE-CRACKING.md
+
+### 4. Privilege Escalation
+- [x] Linux Privesc (SUID, sudo, GTFOBins) → 4-Privesc/01-PRIVESC.md
+- [x] Windows Privesc (UAC, services) → 4-Privesc/01-PRIVESC.md
+- [x] PHP pcntl_exec → 4-Privesc/01-PRIVESC.md
+- [x] LinPEAS, WinPEAS, pspy → 4-Privesc/01-PRIVESC.md
+
+### 5. Active Directory
+- [x] LLMNR Poisoning → 3-Exploitation/05-ACTIVE-DIRECTORY.md
+- [x] Hashcat m5600 → 3-Exploitation/05-ACTIVE-DIRECTORY.md
+- [x] ntlmrelayx.py → 3-Exploitation/05-ACTIVE-DIRECTORY.md
+- [x] SMB Signing Check → 3-Exploitation/05-ACTIVE-DIRECTORY.md
+
+### oldNotes / Zusätze
+- [x] All Cheatsheet Commands → Reference/02-CHEATSHEET.md
+- [x] Privesc tools → 4-Privesc/01-PRIVESC.md
+
+### ALLE CLI-COMMANDS AUS DEINEN NOTES
+$ arp-scan -l
+$ netdiscover -r 
+$ nmap -T4 -p-
+$ smbclient -L
+$ whatweb -a 3 --user-agent
+$ nikto -h
+$ ffuf -w
+$ hydra -l -P ssh://
+$ searchsploit 
+$ msfvenom -p
+$ msfconsole
+$ nc -nvlp
+$ sudo -l
+$ find / -perm -4000
+$ ./linpeas.sh
+$ ./pspy64
+$ /usr/bin/php7.3 -r "pcntl_exec"
+$ hash-identifier
+$ john --wordlist
+$ hashcat -m 5600
+$ fcrackzip -v -u -D -p
+$ sudo responder -I eth0
+$ nmap --script=smb2-security-mode.nse
+$ sudo ntlmrelayx.py -tf targets.txt
+
+### ORIGINALQUELLEN VON DEINEN NOTES
+✓ Alle Links beibehalten (Hunter.io, IntelX, Dehashed, BuiltWith, etc.)
+✓ Alle Tool-URLs erhalten
+✓ Alle Ressourcen-Links korrekt
+
+### ANMERKUNGEN
+- Google Dorking wurde reduziert auf deine Original-Info (Link zu ahrefs)
+- Keine neuen Features erfunden
+- Nur Reorganisation und Formatierung für bessere Nachschlagbarkeit
+- Alle spezifischen Commands aus deinen Notes sind vorhanden
+
+### NEXT STEPS FÜR DICH
+Diese better-notes können jetzt mit deinen neuen Learnings aus dem Kurs erweitert werden.
+Alle bestehenden Inhalte sind unverändert von deinen Originalnotizen.
+
+

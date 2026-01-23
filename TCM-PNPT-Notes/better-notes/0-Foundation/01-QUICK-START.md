@@ -33,9 +33,16 @@
 ---
 
 ## Key Tools by Phase
-- **Recon:** Hunter.io, IntelX, Sublist3r, WHOIS
-- **Scanning:** Nmap, Nessus, Masscan
-- **Enumeration:** Nikto, DirBuster, SMB client
-- **Exploitation:** Metasploit, SearchSploit, Custom scripts
-- **Privesc:** LinPEAS, WinPEAS, GTFOBins
+- **Recon:** Hunter.io, IntelX, Sublist3r, WHOIS, WhatWeb
+- **Scanning:** Nmap, Nessus, Masscan, Nikto
+- **Enumeration:** DirBuster, FFUF, SMB client, impacket
+- **Exploitation:** Metasploit, SearchSploit, Custom scripts, MSFVenom
+- **Privesc:** LinPEAS, WinPEAS, GTFOBins, pspy
+- **Post-Exploitation:** Responder, ntlmrelayx, hashcat, john
+
+## Common Labs for Practice
+- Kioptrix: https://tcm-sec.com/kioptrix
+- HackTheBox: https://www.hackthebox.eu
+- TryHackMe: https://www.tryhackme.com
+- DVWA: docker run --rm -it -p 80:80 vulnerables/web-dvwa
 
