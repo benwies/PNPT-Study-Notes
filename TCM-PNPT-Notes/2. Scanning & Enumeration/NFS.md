@@ -1,0 +1,1 @@
+$showmount -e ip

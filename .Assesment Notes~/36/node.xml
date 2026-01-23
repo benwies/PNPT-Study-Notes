@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="36" master_id="0" name="Nmap" prog_lang="plain-text" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="60" is_bold="0" foreground="" ts_creation="1757176825" ts_lastsave="1757176983">
+    <rich_text>Nmap scan report for 192.168.57.10
+Host is up (0.00063s latency).
+Not shown: 65523 closed tcp ports (reset)
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5040/tcp  open  unknown                                                                                                                                      
+7680/tcp  open  pando-pub?                                                                                                                                   
+8080/tcp  open  http          Jetty 9.4.41.v20210516                                                                                                         
+|_http-title: Site doesn't have a title (text/html;charset=utf-8).                                                                                           
+|_http-server-header: Jetty(9.4.41.v20210516)                                                                                                                
+| http-robots.txt: 1 disallowed entry                                                                                                                        
+|_/                                                                                                                                                          
+49664/tcp open  msrpc         Microsoft Windows RPC                                                                                                          
+49665/tcp open  msrpc         Microsoft Windows RPC                                                                                                          
+49666/tcp open  msrpc         Microsoft Windows RPC                                                                                                          
+49667/tcp open  msrpc         Microsoft Windows RPC                                                                                                          
+49668/tcp open  msrpc         Microsoft Windows RPC                                                                                                          
+49670/tcp open  msrpc         Microsoft Windows RPC                                                                                                          
+MAC Address: 08:00:27:0C:AA:0F (PCS Systemtechnik/Oracle VirtualBox virtual NIC)                                                                             
+Device type: general purpose                                                                                                                                 
+Running: Microsoft Windows 10                                                                                                                                
+OS CPE: cpe:/o:microsoft:windows_10                                                                                                                          
+OS details: Microsoft Windows 10 1709 - 21H2                                                                                                                 
+Network Distance: 1 hop                                                                                                                                      
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows                                                                                                     
+                                                                                                                                                             
+Host script results:                                                                                                                                        
+|_clock-skew: 2s                                                                                                                                             
+| smb2-security-mode:                                                                                                                                        
+|   3:1:1:                                                                                                                                                   
+|_    Message signing enabled but not required                                                                                                               
+|_nbstat: NetBIOS name: BUTLER, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 08:00:27:0c:aa:0f (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+| smb2-time: 
+|   date: 2025-09-06T16:42:32
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.63 ms 192.168.57.10
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 199.25 seconds
+                                                                </rich_text>
+  </node>
+</cherrytree>
