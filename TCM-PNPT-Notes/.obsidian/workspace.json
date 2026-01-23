@@ -11,12 +11,14 @@
             "id": "98eb1349a5eb8794",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "better-notes/img/Pasted image 20250812145702.png"
+                "file": "better-notes/0-Foundation/02-NETWORKING.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250812145702"
+              "icon": "lucide-file",
+              "title": "02-NETWORKING"
             }
           }
         ]
@@ -167,8 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "669d38130e40afa4",
+  "active": "98eb1349a5eb8794",
   "lastOpenFiles": [
+    "better-notes/img/Pasted image 20250812145702.png",
     "better-notes/img/Pasted image 20250729174918.png",
     "oldNotes/Cheatsheet.md",
     "better-notes/COVERAGE-AUDIT.txt",
@@ -214,7 +217,6 @@
     "better-notes/img/Pasted image 20260122191229.png",
     "better-notes/img/Pasted image 20260122191124.png",
     "better-notes/img/Pasted image 20260122191012.png",
-    "better-notes/img/Pasted image 20260122184339.png",
     "Untitled.canvas"
   ]
 }
