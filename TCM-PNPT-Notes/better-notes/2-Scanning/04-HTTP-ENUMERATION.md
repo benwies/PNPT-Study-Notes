@@ -32,7 +32,7 @@ $ ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ \
 # DirBuster (GUI)
 $ dirbuster &
 # Set URL, wordlist, threads
-```
+![[Pasted image 20260122191229.png]]```
 
 ## Burp Suite
 ```bash

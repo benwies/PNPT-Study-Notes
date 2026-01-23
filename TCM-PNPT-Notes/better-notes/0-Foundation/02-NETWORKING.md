@@ -44,3 +44,8 @@
 - Subnet Calculator: https://www.ipaddressguide.com
 - Whois/IP Lookup tools
 
+---
+
+![[Pasted image 20250729174918.png]]
+![[Pasted image 20250729191637.png]]
+

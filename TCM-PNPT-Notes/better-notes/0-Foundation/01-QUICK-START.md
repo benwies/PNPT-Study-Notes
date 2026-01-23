@@ -46,3 +46,7 @@
 - TryHackMe: https://www.tryhackme.com
 - DVWA: docker run --rm -it -p 80:80 vulnerables/web-dvwa
 
+---
+
+![[Pasted image 20250729230316.png]]
+

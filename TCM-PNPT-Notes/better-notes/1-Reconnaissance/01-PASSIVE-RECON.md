@@ -34,3 +34,8 @@ $ dig example.com
 ## Google Dorking Resources
 - Advanced search operators: https://ahrefs.com/blog/google-advanced-search-operators
 
+---
+
+![[Pasted image 20260122182226.png]]
+![[Pasted image 20250729231326.png]]
+

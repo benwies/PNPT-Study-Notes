@@ -9,6 +9,9 @@
 4. **Port:** 8080
 5. ✓ Use proxy for all protocols
 
+![[Pasted image 20260122184259.png]]
+![[Pasted image 20260122184339.png]]
+
 ## Basic Workflow
 
 ### 1. Intercept Traffic
