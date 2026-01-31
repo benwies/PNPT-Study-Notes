@@ -5,41 +5,52 @@ Quick reference guide for pentesting engagements. Commands marked with `$` are f
 ## Table of Contents
 
 ### 0-Foundation
-- [**01-QUICK-START**](TCM-PNPT-Notes/better-notes/0-Foundation/01-QUICK-START.md) - 5 stages, workflow checklist, common ports
-- [**02-NETWORKING**](TCM-PNPT-Notes/better-notes/0-Foundation/02-NETWORKING.md) - OSI model, TCP/UDP, IPv4/IPv6, subnetting
-- [**03-TOOLS-RESOURCES**](TCM-PNPT-Notes/better-notes/0-Foundation/03-TOOLS-RESOURCES.md) - Tools by phase, useful links, common ports
+- [**QUICK-START**](TCM-PNPT-Notes/better-notes/0-Foundation/QUICK-START.md) - 5 stages, workflow checklist, common ports
+- [**NETWORKING**](TCM-PNPT-Notes/better-notes/0-Foundation/NETWORKING.md) - OSI model, TCP/UDP, IPv4/IPv6, subnetting
+- [**TOOLS-RESOURCES**](TCM-PNPT-Notes/better-notes/0-Foundation/TOOLS-RESOURCES.md) - Tools by phase, useful links, common ports
 
 ### 1-Reconnaissance
-- [**01-PASSIVE-RECON**](TCM-PNPT-Notes/better-notes/1-Reconnaissance/01-PASSIVE-RECON.md) - OSINT tools, company info, no active scanning
-- [**02-EMAIL-CREDENTIALS**](TCM-PNPT-Notes/better-notes/1-Reconnaissance/02-EMAIL-CREDENTIALS.md) - Email discovery, breach databases, credential harvesting
+- [**PASSIVE-RECON**](TCM-PNPT-Notes/better-notes/1-Reconnaissance/PASSIVE-RECON.md) - OSINT tools, company info, no active scanning
+- [**EMAIL-CREDENTIALS**](TCM-PNPT-Notes/better-notes/1-Reconnaissance/EMAIL-CREDENTIALS.md) - Email discovery, breach databases, credential harvesting
 
 ### 2-Scanning
-- [**01-SUBDOMAIN-TECH**](TCM-PNPT-Notes/better-notes/2-Scanning/01-SUBDOMAIN-TECH.md) - Subdomain discovery, tech stack identification
-- [**02-NMAP**](TCM-PNPT-Notes/better-notes/2-Scanning/02-NMAP.md) - Port scanning, service enumeration
-- [**03-VULN-SCANNING**](TCM-PNPT-Notes/better-notes/2-Scanning/03-VULN-SCANNING.md) - Nessus, SearchSploit, CVE research
-- [**04-HTTP-ENUMERATION**](TCM-PNPT-Notes/better-notes/2-Scanning/04-HTTP-ENUMERATION.md) - Web servers, directories, Nikto, Burp Suite
-- [**05-SMB-ENUMERATION**](TCM-PNPT-Notes/better-notes/2-Scanning/05-SMB-ENUMERATION.md) - Windows shares, SMB version checking
-- [**06-SSH-ENUMERATION**](TCM-PNPT-Notes/better-notes/2-Scanning/06-SSH-ENUMERATION.md) - SSH versions, weak algorithms, brute force
-- [**07-DNS-OTHER-SERVICES**](TCM-PNPT-Notes/better-notes/2-Scanning/07-DNS-OTHER-SERVICES.md) - DNS, NFS, Telnet, hash identification
+- [**SUBDOMAIN-TECH**](TCM-PNPT-Notes/better-notes/2-Scanning/SUBDOMAIN-TECH.md) - Subdomain discovery, tech stack identification
+- [**NMAP**](TCM-PNPT-Notes/better-notes/2-Scanning/NMAP.md) - Port scanning, service enumeration
+- [**VULN-SCANNING**](TCM-PNPT-Notes/better-notes/2-Scanning/VULN-SCANNING.md) - Nessus, SearchSploit, CVE research
+- [**HTTP-ENUMERATION**](TCM-PNPT-Notes/better-notes/2-Scanning/HTTP-ENUMERATION.md) - Web servers, directories, Nikto, Burp Suite
+- [**SMB-ENUMERATION**](TCM-PNPT-Notes/better-notes/2-Scanning/SMB-ENUMERATION.md) - Windows shares, SMB version checking
+- [**SSH-ENUMERATION**](TCM-PNPT-Notes/better-notes/2-Scanning/SSH-ENUMERATION.md) - SSH versions, weak algorithms, brute force
+- [**DNS-OTHER-SERVICES**](TCM-PNPT-Notes/better-notes/2-Scanning/DNS-OTHER-SERVICES.md) - DNS, NFS, Telnet, hash identification
 
 ### 3-Exploitation
-- [**01-BRUTE-FORCE**](TCM-PNPT-Notes/better-notes/3-Exploitation/01-BRUTE-FORCE.md) - Hydra, credential stuffing, password spraying
-- [**02-METASPLOIT**](TCM-PNPT-Notes/better-notes/3-Exploitation/02-METASPLOIT.md) - MSFConsole basics, exploit workflow
-- [**03-REVERSE-SHELLS**](TCM-PNPT-Notes/better-notes/3-Exploitation/03-REVERSE-SHELLS.md) - Shell types, MSFVenom, one-liners
-- [**04-WEB-EXPLOITATION**](TCM-PNPT-Notes/better-notes/3-Exploitation/04-WEB-EXPLOITATION.md) - PHP shells, SQLi, LFI/RFI, file uploads
-- [**05-ACTIVE-DIRECTORY**](TCM-PNPT-Notes/better-notes/3-Exploitation/05-ACTIVE-DIRECTORY.md) - LLMNR poisoning, Kerberoasting, PTH
+- [**BRUTE-FORCE**](TCM-PNPT-Notes/better-notes/3-Exploitation/BRUTE-FORCE.md) - Hydra, credential stuffing, password spraying
+- [**METASPLOIT**](TCM-PNPT-Notes/better-notes/3-Exploitation/METASPLOIT.md) - MSFConsole basics, exploit workflow
+- [**REVERSE-SHELLS**](TCM-PNPT-Notes/better-notes/3-Exploitation/REVERSE-SHELLS.md) - Shell types, MSFVenom, one-liners
+- [**WEB-EXPLOITATION**](TCM-PNPT-Notes/better-notes/3-Exploitation/WEB-EXPLOITATION.md) - PHP shells, SQLi, LFI/RFI, file uploads
+- [**ACTIVE-DIRECTORY**](TCM-PNPT-Notes/better-notes/3-Exploitation/ACTIVE-DIRECTORY.md) - LLMNR poisoning, Kerberoasting, PTH
 
 ### 4-Privesc
-- [**01-PRIVESC**](TCM-PNPT-Notes/better-notes/4-Privesc/01-PRIVESC.md) - Linux/Windows privesc, SUID, sudo, UAC bypass
+- [**PRIVESC**](TCM-PNPT-Notes/better-notes/4-Privesc/PRIVESC.md) - Linux/Windows privesc, SUID, sudo, UAC bypass
 
 ### 5-PostExploitation
-- [**01-POST-EXPLOITATION**](TCM-PNPT-Notes/better-notes/5-PostExploitation/01-POST-EXPLOITATION.md) - File transfer, data exfil, log cleanup
-- [**02-FILE-CRACKING**](TCM-PNPT-Notes/better-notes/5-PostExploitation/02-FILE-CRACKING.md) - ZIP cracking, hash identification, John/Hashcat
+- [**POST-EXPLOITATION**](TCM-PNPT-Notes/better-notes/5-PostExploitation/POST-EXPLOITATION.md) - File transfer, data exfil, log cleanup
+- [**FILE-CRACKING**](TCM-PNPT-Notes/better-notes/5-PostExploitation/FILE-CRACKING.md) - ZIP cracking, hash identification, John/Hashcat
+
+### 6-Active Directory
+- **Attacking Active Directory - Post-Compromise Enumeration**
+  - [**USERS-GROUPS**](TCM-PNPT-Notes/better-notes/active%20directory/Attacking%20Active%20Directory%20-%20Post-Compromise%20Enumeration/USERS-GROUPS.md) - User and group enumeration
+  - [**DOMAIN-STRUCTURE**](TCM-PNPT-Notes/better-notes/active%20directory/Attacking%20Active%20Directory%20-%20Post-Compromise%20Enumeration/DOMAIN-STRUCTURE.md) - Domain trusts, permissions, ACLs
+  - [**SHARES-RESOURCES**](TCM-PNPT-Notes/better-notes/active%20directory/Attacking%20Active%20Directory%20-%20Post-Compromise%20Enumeration/SHARES-RESOURCES.md) - Shares discovery and analysis
+
+- **Attacking Active Directory - Post-Compromise Attacks**
+  - [**PRIVILEGE-ESCALATION**](TCM-PNPT-Notes/better-notes/active%20directory/Attacking%20Active%20Directory%20-%20Post-Compromise%20Attacks/PRIVILEGE-ESCALATION.md) - Kerberoasting, delegation abuse, escalation techniques
+  - [**LATERAL-MOVEMENT**](TCM-PNPT-Notes/better-notes/active%20directory/Attacking%20Active%20Directory%20-%20Post-Compromise%20Attacks/LATERAL-MOVEMENT.md) - PTH, PTT, lateral movement techniques
+  - [**PERSISTENCE**](TCM-PNPT-Notes/better-notes/active%20directory/Attacking%20Active%20Directory%20-%20Post-Compromise%20Attacks/PERSISTENCE.md) - Backdoors, scheduled tasks, GPO manipulation
 
 ### Reference
-- [**01-BURP-SUITE**](TCM-PNPT-Notes/better-notes/Reference/01-BURP-SUITE.md) - Setup, intercepting, testing, scanning
-- [**02-CHEATSHEET**](TCM-PNPT-Notes/better-notes/Reference/02-CHEATSHEET.md) - All commands in one place
-- [**03-REPORTING-LEGAL**](TCM-PNPT-Notes/better-notes/Reference/03-REPORTING-LEGAL.md) - Documentation, scope, legal considerations
+- [**BURP-SUITE**](TCM-PNPT-Notes/better-notes/Reference/BURP-SUITE.md) - Setup, intercepting, testing, scanning
+- [**CHEATSHEET**](TCM-PNPT-Notes/better-notes/Reference/CHEATSHEET.md) - All commands in one place
+- [**REPORTING-LEGAL**](TCM-PNPT-Notes/better-notes/Reference/REPORTING-LEGAL.md) - Documentation, scope, legal considerations
 
 ## Directory Structure
 
