@@ -1,6 +1,6 @@
 # TCM PNPT PENTESTING HANDBOOK
 
-**Study & Reference Guide for the [TCM PNPT Certification](https://www.tcm-sec.com/penetration-tester-certification/)**
+**Study & Reference Guide for the [TCM PNPT Certification]([https://www.tcm-sec.com/penetration-tester-certification/](https://certifications.tcm-sec.com/pnpt/))**
 
 ## Overview
 
