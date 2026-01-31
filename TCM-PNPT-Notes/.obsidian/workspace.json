@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 Attacks Overview.md",
+                "file": "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPv6 Attacks Overview"
+              "title": "IPv6 DNS Takeover via mitm6"
             }
           }
         ]
@@ -172,9 +172,9 @@
   "active": "98eb1349a5eb8794",
   "lastOpenFiles": [
     "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/Gaining Shell Access.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 Attacks Overview.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/llmnr poisoning.md",
     "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/smb relay.md",
+    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/llmnr poisoning.md",
+    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
     "better-notes/5-PostExploitation/FILE-CRACKING.md",
     "better-notes/4-Privesc/PRIVESC.md",
     "better-notes/3-Exploitation/WEB-EXPLOITATION.md",
