@@ -63,7 +63,3 @@ Comprehensive handbook covering all pentesting phases: reconnaissance, scanning,
 - [REPORTING-LEGAL](TCM-PNPT-Notes/better-notes/Reference/REPORTING-LEGAL.md)
 
 ---
-
-**Framework:** TCM PNPT | **Updated:** January 2026
-
-
