@@ -37,5 +37,4 @@ $ dig example.com
 ---
 
 ![[Pasted image 20260122182226.png]]
-![[Pasted image 20250729231326.png]]
 
