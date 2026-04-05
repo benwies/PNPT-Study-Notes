@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
+                "file": "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Kerberoasting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPv6 DNS Takeover via mitm6"
+              "title": "Kerberoasting"
             }
           }
         ]
@@ -171,17 +171,24 @@
   },
   "active": "98eb1349a5eb8794",
   "lastOpenFiles": [
+    "better-notes/img/Pasted image 20260405194706.png",
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Dumping and Cracking Hashes.md",
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Kerberoasting.md",
+    "Pasted image 20260405194706.png",
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Pass Attacks.md",
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration/bloodhound plumhound pingcastle.md",
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration/ldapdomaindump.md",
+    "better-notes/3-Exploitation/REVERSE-SHELLS.md",
+    "better-notes/3-Exploitation/ACTIVE-DIRECTORY.md",
+    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
     "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/Gaining Shell Access.md",
     "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/smb relay.md",
     "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/llmnr poisoning.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
     "better-notes/5-PostExploitation/FILE-CRACKING.md",
     "better-notes/4-Privesc/PRIVESC.md",
     "better-notes/3-Exploitation/WEB-EXPLOITATION.md",
-    "better-notes/3-Exploitation/REVERSE-SHELLS.md",
     "better-notes/3-Exploitation/METASPLOIT.md",
     "better-notes/3-Exploitation/BRUTE-FORCE.md",
-    "better-notes/3-Exploitation/ACTIVE-DIRECTORY.md",
     "better-notes/2-Scanning/VULN-SCANNING.md",
     "better-notes/2-Scanning/SUBDOMAIN-TECH.md",
     "better-notes/2-Scanning/SSH-ENUMERATION.md",
@@ -191,13 +198,7 @@
     "better-notes/2-Scanning/DNS-OTHER-SERVICES.md",
     "better-notes/1-Reconnaissance/PASSIVE-RECON.md",
     "better-notes/1-Reconnaissance/EMAIL-CREDENTIALS.md",
-    "better-notes/0-Foundation/NETWORKING.md",
-    "better-notes/active directory/Attacking Active Directory Initial Attack Vectors/smb relay.md",
     "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors",
-    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/PERSISTENCE.md",
-    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/LATERAL-MOVEMENT.md",
-    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/PRIVILEGE-ESCALATION.md",
-    "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration/SHARES-RESOURCES.md",
     "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks",
     "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration",
     "better-notes/img/Pasted image 20260131173102.png",
@@ -216,7 +217,6 @@
     "better-notes/img/Pasted image 20260122193412.png",
     "better-notes/img/Pasted image 20260122193333.png",
     "better-notes/img/Pasted image 20260122193258.png",
-    "better-notes/img/Pasted image 20260122191229.png",
     "Untitled.canvas"
   ]
 }
