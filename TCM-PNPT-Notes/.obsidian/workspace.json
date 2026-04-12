@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29b149c2f7890ecd",
+        "id": "494458f34ebc599c",
         "type": "tabs",
         "children": [
           {
-            "id": "98eb1349a5eb8794",
+            "id": "054e3b43c0c111d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Kerberoasting.md",
+                "file": "better-notes/active directory/5Additional Active Directory Attacks/PrintNightmare (CVE-2021-1675).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberoasting"
+              "title": "PrintNightmare (CVE-2021-1675)"
             }
           }
         ]
@@ -169,8 +169,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98eb1349a5eb8794",
+  "active": "054e3b43c0c111d6",
   "lastOpenFiles": [
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration/01-BLOODHOUND-PLUMHOUND-PINGCASTLE.md",
+    "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration",
+    "better-notes/active directory/5Additional Active Directory Attacks/ZeroLogon.md",
+    "better-notes/active directory/5Additional Active Directory Attacks/PrintNightmare (CVE-2021-1675).md",
+    "better-notes/active directory/4We've Compromised the Domain  Now What/Golden Ticket Attacks.md",
+    "better-notes/active directory/5Additional Active Directory Attacks",
+    "better-notes/active directory/Untitled.md",
+    "better-notes/active directory/4We've Compromised the Domain  Now What/Dumping the NTDS.dit.md",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/Token Impersonation.md",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/02-KERBEROASTING.md",
+    "better-notes/active directory/4We've Compromised the Domain  Now What",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/Post-Compromise Attack Strategy.md",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/GPP Attack.md",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/LNK File Attacks.md",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/01-DUMPING-HASHES.md",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks/03-PASS-ATTACKS.md",
     "better-notes/img/Pasted image 20260405194706.png",
     "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Dumping and Cracking Hashes.md",
     "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks/Kerberoasting.md",
@@ -180,27 +196,15 @@
     "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration/ldapdomaindump.md",
     "better-notes/3-Exploitation/REVERSE-SHELLS.md",
     "better-notes/3-Exploitation/ACTIVE-DIRECTORY.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/Gaining Shell Access.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/smb relay.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors/llmnr poisoning.md",
+    "better-notes/active directory/1Attacking Active Directory - Initial Attack Vectors/IPv6 DNS Takeover via mitm6.md",
+    "better-notes/active directory/1Attacking Active Directory - Initial Attack Vectors/Gaining Shell Access.md",
+    "better-notes/active directory/1Attacking Active Directory - Initial Attack Vectors/smb relay.md",
+    "better-notes/active directory/1Attacking Active Directory - Initial Attack Vectors/llmnr poisoning.md",
     "better-notes/5-PostExploitation/FILE-CRACKING.md",
     "better-notes/4-Privesc/PRIVESC.md",
-    "better-notes/3-Exploitation/WEB-EXPLOITATION.md",
-    "better-notes/3-Exploitation/METASPLOIT.md",
-    "better-notes/3-Exploitation/BRUTE-FORCE.md",
-    "better-notes/2-Scanning/VULN-SCANNING.md",
-    "better-notes/2-Scanning/SUBDOMAIN-TECH.md",
-    "better-notes/2-Scanning/SSH-ENUMERATION.md",
-    "better-notes/2-Scanning/SMB-ENUMERATION.md",
-    "better-notes/2-Scanning/NMAP.md",
-    "better-notes/2-Scanning/HTTP-ENUMERATION.md",
-    "better-notes/2-Scanning/DNS-OTHER-SERVICES.md",
-    "better-notes/1-Reconnaissance/PASSIVE-RECON.md",
-    "better-notes/1-Reconnaissance/EMAIL-CREDENTIALS.md",
-    "better-notes/active directory/Attacking Active Directory - Initial Attack Vectors",
-    "better-notes/active directory/Attacking Active Directory - Post-Compromise Attacks",
-    "better-notes/active directory/Attacking Active Directory - Post-Compromise Enumeration",
+    "better-notes/active directory/1Attacking Active Directory - Initial Attack Vectors",
+    "better-notes/active directory/3Attacking Active Directory - Post-Compromise Attacks",
+    "better-notes/active directory/2Attacking Active Directory - Post-Compromise Enumeration",
     "better-notes/img/Pasted image 20260131173102.png",
     "better-notes/active directory",
     "better-notes/active directory/Attacking Active Directory Initial Attack Vectors",
@@ -208,15 +212,11 @@
     "better-notes/img/Pasted image 20250729174918.png",
     "better-notes/COVERAGE-AUDIT.txt",
     "better-notes/Reference",
-    "better-notes/5-PostExploitation",
-    "better-notes/4-Privesc",
-    "better-notes/3-Exploitation",
     "better-notes/img/Pasted image 20260122195914.png",
     "better-notes/img/Pasted image 20260122195831.png",
     "better-notes/img/Pasted image 20260122194913.png",
     "better-notes/img/Pasted image 20260122193412.png",
     "better-notes/img/Pasted image 20260122193333.png",
-    "better-notes/img/Pasted image 20260122193258.png",
     "Untitled.canvas"
   ]
 }
