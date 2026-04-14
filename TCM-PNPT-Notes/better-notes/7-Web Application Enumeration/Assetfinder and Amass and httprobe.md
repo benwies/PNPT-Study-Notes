@@ -1,22 +1,33 @@
+# SUBDOMAIN ENUMERATION
 
+## Assetfinder
+[GitHub](https://github.com/tomnomnom/assetfinder)
+
+```bash
+# Installation
 go install github.com/tomnomnom/assetfinder@latest
+
+# Find all subdomains
 assetfinder tesla.com >> tesla-subs.txt
 cat tesla-subs.txt | wc -l
 
-
+# Only subdomains
 assetfinder --subs-only tesla.com
+```
 
---------------------
+## Amass
+[GitHub](https://github.com/owasp-amass/amass)
 
-https://github.com/owasp-amass/amass
-
+```bash
 amass enum -d tesla.com
+```
 
------------------------
+## Httprobe
+[GitHub](https://github.com/tomnomnom/httprobe)
 
-https://github.com/tomnomnom/httprobe
-
+```bash
 cat final.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ':443'
+```
 
 ------------------------------
 
